@@ -1,7 +1,8 @@
 import React from 'react'
 import { css } from 'glamor'
 import { observer } from 'mobx-react'
-import { graphql, compose } from 'react-apollo'
+import { graphql } from 'react-apollo'
+import {flowRight as compose} from 'lodash';
 import { FaComments, FaChevronRight } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
